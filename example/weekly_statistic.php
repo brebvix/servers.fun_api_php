@@ -8,13 +8,13 @@ $statistics = $api->get('statistics', ['per' => 'week']);
 <h4>Average online <?= $statistics['averageOnline'] ?> (last week)</h4>
 <h4>Maximum online <?= $statistics['maximumOnline'] ?> (last week)</h4>
 <table>
-    <theead>
-        <tr>
-            <th>Average online</th>
-            <th>Maximum online</th>
-            <th>Date</th>
-        </tr>
-    </theead>
+    <thead>
+    <tr>
+        <th>Average online</th>
+        <th>Maximum online</th>
+        <th>Date</th>
+    </tr>
+    </thead>
     <tbody>
     <?php foreach ($statistics['list'] AS $statistic): ?>
         <tr>

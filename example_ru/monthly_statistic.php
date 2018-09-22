@@ -8,13 +8,13 @@ $statistics = $api->get('statistics', ['per' => 'month']);
 <h4>Средний онлайн <?= $statistics['averageOnline'] ?> (за последний месяц)</h4>
 <h4>Максимальный онлайн <?= $statistics['maximumOnline'] ?> (за последний месяц)</h4>
 <table>
-    <theead>
+    <thead>
         <tr>
             <th>Средний онлайн</th>
             <th>Максимальный онлайн</th>
             <th>Дата</th>
         </tr>
-    </theead>
+    </thead>
     <tbody>
     <?php foreach ($statistics['list'] AS $statistic): ?>
         <tr>

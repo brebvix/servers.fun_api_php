@@ -8,12 +8,12 @@ $server = $api->get('servers');
 
 <h3>Информация о сервере: <?= $server['title'] ?></h3>
 <table>
-    <theead>
-        <tr>
-            <th>Параметр</th>
-            <th>Значение</th>
-        </tr>
-    </theead>
+    <thead>
+    <tr>
+        <th>Параметр</th>
+        <th>Значение</th>
+    </tr>
+    </thead>
     <tbody>
     <tr>
         <td>Адрес</td>

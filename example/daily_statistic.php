@@ -8,12 +8,12 @@ $statistics = $api->get('statistics', ['per' => 'day']);
 <h4>Average online <?= $statistics['averageOnline'] ?> (today)</h4>
 <h4>Maximum online <?= $statistics['maximumOnline'] ?> (today)</h4>
 <table>
-    <theead>
-        <tr>
-            <th>Players</th>
-            <th>Date</th>
-        </tr>
-    </theead>
+    <thead>
+    <tr>
+        <th>Players</th>
+        <th>Date</th>
+    </tr>
+    </thead>
     <tbody>
     <?php foreach ($statistics['list'] AS $statistic): ?>
         <tr>
