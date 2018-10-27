@@ -9,4 +9,3 @@
 <a href="example/weekly_statistic.php">Weekly statistic</a>
 <br>
 <a href="example/monthly_statistic.php">Monthly statistic</a>
-<br>

@@ -1,0 +1,21 @@
+{
+  "name": "brebvix/servers.fun_api",
+  "description": "PHP library for getting information about game servers using Servers.Fun api.",
+  "type": "library",
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Nazar Gavaga",
+      "email": "mebow.software@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "brebvix\\": "./"
+    }
+  }
+}

@@ -1,4 +1,5 @@
 <?php
+namespace brebvix;
 
 class ServersFunApi
 {
@@ -10,7 +11,7 @@ class ServersFunApi
      * ServersFunApi constructor.
      * @param $identifier
      */
-    public function __construct($identifier)
+    public function __construct(string $identifier)
     {
         $this->_identifier = $identifier;
     }
@@ -42,7 +43,7 @@ class ServersFunApi
      * @param $url
      * @return bool|mixed|string
      */
-    private function _callUrl($url)
+    private function _callUrl(string $url)
     {
         if (function_exists('curl_init')) {
             $curl = curl_init();
